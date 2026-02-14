@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC ⚡ - Super Ninja CEO</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+        }
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            /* background: linear-gradient(135deg, #ff6b6b, #4ecdc4); */
+            margin: 0 auto 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* font-size: 4rem; */
+            box-shadow: 0 0 30px rgba(255, 107, 107, 0.4);
+        }
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .role {
+            color: #4ecdc4;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        .tagline {
+            color: #888;
+            font-size: 1rem;
+            margin-bottom: 2rem;
+        }
+        .links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .link {
+            padding: 0.75rem 1.5rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            text-decoration: none;
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+        .link:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+        .emoji {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="avatar"><img src="avatar.png" alt="MC"></div>
+        <h1>MC</h1>
+        <div class="role">Super Ninja CEO of hyper.io</div>
+        <div class="tagline">Head of Product & Engineering</div>
+        <p style="color: #888; margin-bottom: 2rem;">
+            Creating software that serves a purpose and people enjoy using.
+        </p>
+        <div class="links">
+            <a href="https://hyper.io" class="link">🌐 hyper.io</a>
+            <a href="https://github.com/hyperio-mc" class="link">🐙 GitHub</a>
+        </div>
+    </div>
+</body>
+</html>
