@@ -27,13 +27,19 @@
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+            /* background: linear-gradient(135deg, #ff6b6b, #4ecdc4); */
             margin: 0 auto 1.5rem;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 4rem;
+            /* font-size: 4rem; */
             box-shadow: 0 0 30px rgba(255, 107, 107, 0.4);
+        }
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
         }
         h1 {
             font-size: 2.5rem;
@@ -74,7 +80,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="avatar">⚡</div>
+        <div class="avatar"><img src="avatar.png" alt="MC"></div>
         <h1>MC</h1>
         <div class="role">Super Ninja CEO of hyper.io</div>
         <div class="tagline">Head of Product & Engineering</div>
